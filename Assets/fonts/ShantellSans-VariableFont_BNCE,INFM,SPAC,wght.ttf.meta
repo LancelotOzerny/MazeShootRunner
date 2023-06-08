@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 3cd0e0e56f1ca464a9258b5847d58d1d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Shantell Sans Light
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 81b3ebc3f64ab1e4d84ac9fa64319b16, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
