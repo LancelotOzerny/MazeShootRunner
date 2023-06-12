@@ -228,9 +228,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35fddc5afd6e21544b1e00db7bd99cab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _size: {x: 10, y: 20}
+  _size: {x: 20, y: 20}
   _startPoint: {x: 0, y: 0}
-  _endPoint: {x: 10, y: 20}
+  _endPoint: {x: 20, y: 20}
   _road: {fileID: 2138192468050998935, guid: 53628f01d0899b74fbbf563b6cb98b4b, type: 3}
   _wall: {fileID: 6086362051966933057, guid: d5ffb7e0ac6951a438c89739ed6159b9, type: 3}
 --- !u!4 &509974975
@@ -325,7 +325,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1256981524}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: -7.38, y: -3.55, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

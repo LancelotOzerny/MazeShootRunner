@@ -101,7 +101,6 @@ public class MazeGenerator : MonoBehaviour
                         CreateBlockOnPos(_road, x, y);
                         _roadElemens.Add(new Vector2Int(x, y));
                         break;
-                    
                     default:
                         CreateBlockOnPos(_wall, x, y);
                         break;
@@ -112,15 +111,15 @@ public class MazeGenerator : MonoBehaviour
 
     private void BuildBorders()
     {
-        for (int i = -1; i < _size.x + 1; ++i)
+        for (int i = -1; i < _size.x + 2; ++i)
         {
-            CreateBlockOnPos(_wall, i, (int)_size.y);
+            CreateBlockOnPos(_wall, i, (int)_size.y + 1);
             CreateBlockOnPos(_wall, i, -1);
         }
 
         for (int i = -1; i < _size.y + 1; ++i)
         {
-            CreateBlockOnPos(_wall, (int)_size.x,i);
+            CreateBlockOnPos(_wall, (int)_size.x + 1, i);
             CreateBlockOnPos(_wall, -1, i);
         }
     }
