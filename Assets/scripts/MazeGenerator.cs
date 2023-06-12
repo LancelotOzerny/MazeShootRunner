@@ -13,6 +13,8 @@ public class MazeGenerator : MonoBehaviour
     private List<Vector2> _roadElemens = new List<Vector2>();
     private int _minSize = 4;
 
+    public List<Vector2> RoadElements { get => _roadElemens; }
+
     private void Awake()
     {
         if (_size.x <= _minSize) _size.x = _minSize;
@@ -35,6 +37,7 @@ public class MazeGenerator : MonoBehaviour
             for (int x = 0; x < _size.x; x++)
             {
                 CreateBlockOnPos(_road, x, y);
+                _roadElemens.Add(new Vector2((int)x, (int)y));
             }
         }
     }
